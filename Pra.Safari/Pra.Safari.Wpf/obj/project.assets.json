@@ -1,0 +1,93 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0-windows7.0": {
+      "Pra.Safari.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Pra.Safari.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Pra.Safari.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Pra.Safari.Core/1.0.0": {
+      "type": "project",
+      "path": "../Pra.Safari.Core/Pra.Safari.Core.csproj",
+      "msbuildProject": "../Pra.Safari.Core/Pra.Safari.Core.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0-windows7.0": [
+      "Pra.Safari.Core >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\didie\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\didie\\OneDrive\\Bureaublad\\st-2122-1-S1G2-pe1-predator-vs-prey-DidierMaes87\\Pra.Safari\\Pra.Safari.Wpf\\Pra.Safari.Wpf.csproj",
+      "projectName": "Pra.Safari.Wpf",
+      "projectPath": "C:\\Users\\didie\\OneDrive\\Bureaublad\\st-2122-1-S1G2-pe1-predator-vs-prey-DidierMaes87\\Pra.Safari\\Pra.Safari.Wpf\\Pra.Safari.Wpf.csproj",
+      "packagesPath": "C:\\Users\\didie\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\didie\\OneDrive\\Bureaublad\\st-2122-1-S1G2-pe1-predator-vs-prey-DidierMaes87\\Pra.Safari\\Pra.Safari.Wpf\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\didie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0-windows7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "projectReferences": {
+            "C:\\Users\\didie\\OneDrive\\Bureaublad\\st-2122-1-S1G2-pe1-predator-vs-prey-DidierMaes87\\Pra.Safari\\Pra.Safari.Core\\Pra.Safari.Core.csproj": {
+              "projectPath": "C:\\Users\\didie\\OneDrive\\Bureaublad\\st-2122-1-S1G2-pe1-predator-vs-prey-DidierMaes87\\Pra.Safari\\Pra.Safari.Core\\Pra.Safari.Core.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0-windows7.0": {
+        "targetAlias": "net5.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+﻿<Window x:Class="Pra.Safari.Wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Pra.Safari.Wpf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="451" Width="558">
+    <Grid>
+        <ListBox x:Name="lstPredators" Margin="10,30,338,10"/>
+        <ListBox x:Name="lstPreys" Margin="225,30,117,10" SelectionMode="Multiple" SelectionChanged="LstPreys_SelectionChanged"/>
+        <Label Content="Predators:" HorizontalAlignment="Left" Margin="10,4,0,0" VerticalAlignment="Top"/>
+        <Label Content="Preys:" HorizontalAlignment="Left" Margin="225,4,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnAddFox" Content="Add fox" HorizontalAlignment="Left" Margin="446,30,0,0" VerticalAlignment="Top" Height="29" Width="75" Click="BtnAddFox_Click"/>
+        <Button x:Name="btnAddRabbit" Content="Add rabbit" HorizontalAlignment="Left" Margin="446,98,0,0" VerticalAlignment="Top" Height="29" Width="75" Click="BtnAddRabbit_Click"/>
+        <Button x:Name="btnAddMouse" Content="Add mouse" HorizontalAlignment="Left" Margin="446,130,0,0" VerticalAlignment="Top" Height="29" Width="75" Click="BtnAddMouse_Click"/>
+        <Button x:Name="btnHunt" Content="Hunt" HorizontalAlignment="Left" Margin="446,165,0,0" VerticalAlignment="Top" Height="29" Width="75" Background="#FFF7C2C2" FontWeight="Bold" Click="BtnHunt_Click" IsEnabled="False"/>
+        <Button x:Name="btnBreed" Content="Breed" HorizontalAlignment="Left" Margin="446,199,0,0" VerticalAlignment="Top" Height="29" Width="75" Background="#FFE5F0B7" FontWeight="Bold" IsEnabled="False" Click="BtnBreed_Click"/>
+        <Button x:Name="btnAddBear" Content="Add bear" HorizontalAlignment="Left" Height="29
+                " Margin="446,60,0,0" VerticalAlignment="Top" Width="75
+                " Click="BtnAddBear_Click"/>
+    </Grid>
+</Window>
